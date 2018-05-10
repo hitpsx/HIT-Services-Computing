@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="TeachingDemo-XFireClient"
+  id="myeclipse.1511882141877"
+  context-root="/TeachingDemo-XFireClient"
+  j2ee-spec="5.0"
+  archive="TeachingDemo-XFireClient.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+
+	<service>
+		<name>DbInterface</name>
+		<serviceClass>db.DbHandler</serviceClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service>
+	<service>
+		<name>DBInterface</name>
+		<serviceClass>db.DbHandler</serviceClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service>
+	<service>
+		<name>XfireAPI</name>
+		<serviceClass>xfire.IXfireAPI</serviceClass>
+		<implementationClass>xfire.XfireAPIImpl</implementationClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service>
+	<service>
+		<name>tewst</name>
+		<serviceClass>db.DbHandler</serviceClass>
+		<style>wrapped</style>
+		<use>literal</use>
+		<scope>application</scope>
+	</service></beans>
